@@ -1,17 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tea House</title>
 
     <!-- tailwind css cdn link  -->
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 
-</head>
-<body>
-    <header></header>
+    <!-- fontawesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <!-- header section  -->
+      <div class="grid grid-cols-2">
+        <!-- text-content  -->
+        <div>
+          <h1 class="text-7xl font-extrabold
+">
+            <span>It's good</span><br />
+            <span>tea time at The</span><br />
+            <span>Tea House</span>
+          </h1>
+          <p class="font-medium text-stone-300">
+            Tea and Botanical Solutions Supplier Give Optimum Satisfaction To
+            Your Taste Buds.
+          </p>
+          <button class="bg-gradient-to-r from-[#FF8938] to-[#FF0000] px-5 py-2 items-center rounded-xl text-white font-bold ">Explore More<i class="fa-solid fa-arrow-right -rotate-45"></i></button>
+        </div>
+        <div>
+            <img src="images/banner.png" alt="">
+        </div>
+      </div>
+    </header>
     <main></main>
     <footer></footer>
-</body>
+  </body>
 </html>
